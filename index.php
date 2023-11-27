@@ -21,6 +21,11 @@
 
     <main>
         <div id="app">
+            <form action="censored.php" method="GET">
+                <textarea name="paragraph" id="paragraph"></textarea>
+                <input type="text" name="badword">
+                <button type="submit">Censura</button>
+            </form>
 
         </div>
     </main>
